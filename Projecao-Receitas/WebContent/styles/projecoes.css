@@ -1,0 +1,38 @@
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../nac-salvio/bg.jpg);
+    background-position: center;
+    font-family:'Lato';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    font-weight: normal;
+    font-size: 1em;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+.container td{
+    background-color: rgb(232, 236, 236);
+    padding:20px;
+}
+.header td{
+    background-color:rgb(145, 148, 148);
+}
+.content{
+    padding-top: 120px;
+    display: flex;
+    align-items:center;
+}
+.title{
+    font-size: 41px;
+    border-bottom: thin;
+    border-bottom: 2px solid;
+    border-image-source: radial-gradient( rgb(49, 49, 49), rgba(93, 91, 89, 0.39));
+    border-image-slice: 1;
+    width: 50%;
+}
