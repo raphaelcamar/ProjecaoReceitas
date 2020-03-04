@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SYS_C0077090" directorySegmentName="seg_0" id="38A9411D-C283-D361-A129-C6A26D26A759">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>E9383B2E-7B57-783A-41DC-A0C62156E104</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<sourcePk>A3F6AD7A-5B2B-D377-F582-A2D3245ABCDA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3549D5F-7D10-21EB-FA9F-92508D26242B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F79EA0CD-0577-B944-6895-C47D184E667A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

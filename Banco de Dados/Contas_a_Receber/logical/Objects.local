@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="F79EA0CD-0577-B944-6895-C47D184E667A" name="TB RECEITA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BB4B91BF-343B-1F76-86AA-AA990CEA2991" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A3549D5F-7D10-21EB-FA9F-92508D26242B" name="TB TIPO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="BB4B91BF-343B-1F76-86AA-AA990CEA2991" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="38A9411D-C283-D361-A129-C6A26D26A759" name="SYS_C0077090" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="BB4B91BF-343B-1F76-86AA-AA990CEA2991" propertySourceId="A3549D5F-7D10-21EB-FA9F-92508D26242B" propertyTargetId="F79EA0CD-0577-B944-6895-C47D184E667A"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

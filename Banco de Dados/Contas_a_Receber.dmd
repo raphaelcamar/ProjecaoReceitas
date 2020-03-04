@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeção_Receitas" id="BE799302-CF4A-5136-1C5A-E7087F42B5D4" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:19:46 UTC</createdTime>
+<ownerDesignName>Laranja</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BE799302-CF4A-5136-1C5A-E7087F42B5D4</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E256CB41-FB9D-2EA4-7581-36A046662E3A">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

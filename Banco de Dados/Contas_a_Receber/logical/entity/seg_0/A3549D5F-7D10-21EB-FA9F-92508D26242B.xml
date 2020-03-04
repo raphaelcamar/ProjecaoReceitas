@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3549D5F-7D10-21EB-FA9F-92508D26242B" name="TB TIPO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>31DA6B85-6620-E6E4-D4C4-C5D69D923677</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TIPO" id="6128A51C-1C26-6962-2179-E3B08C46AB70">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>1C377626-0058-132D-6E1A-253E26F81DBE</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS RECEITA" id="FCC90296-AD3F-B849-E8FC-A92A905E1930">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>97AC995F-F5AC-A06E-293E-4E1E87070738</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="C3E72331-D147-62EC-6A91-59FFC5CED651">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>CE0864C5-2AAD-969F-490D-83E1E2DA97DA</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3F6AD7A-5B2B-D377-F582-A2D3245ABCDA" name="TB TIPO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>D335C0D1-12E6-2E92-7FB4-57FF71B32802</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6128A51C-1C26-6962-2179-E3B08C46AB70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

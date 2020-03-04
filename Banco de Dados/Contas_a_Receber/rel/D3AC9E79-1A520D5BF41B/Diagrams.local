@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="6B579721-6BAA-08D3-BD03-54CEBC66CCA3" name="Fiap" visible="false"/>
+   <object objectType="sub_view" objectID="93FC8E64-E240-1F8C-88B7-4846DC6AFB56" name="Fiap - SubView_1" visible="true"/>
+   <object objectType="sub_view" objectID="BE76A26D-B0B6-362F-E428-15EEB3179BE6" name="Fiap - SubView_2" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

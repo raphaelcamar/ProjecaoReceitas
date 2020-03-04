@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Fiap" id="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" mainViewID="6B579721-6BAA-08D3-BD03-54CEBC66CCA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<ownerDesignName>Laranja</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

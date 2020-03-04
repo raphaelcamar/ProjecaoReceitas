@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F79EA0CD-0577-B944-6895-C47D184E667A" name="TB RECEITA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>B10513D8-7D50-9BB7-14BA-E926D9C3C7CE</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID RECEITA" id="A193F09F-FA2C-D9CA-E243-4D8B5C1F8E72">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>D822A86E-F653-E708-9C17-B2D5CD51EC4A</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT ANO" id="962BB759-023A-5144-3F62-792B45937288">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>6F6D1577-6605-145E-9EF4-7DEA5E4D5805</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL RECEITA" id="86E31622-6413-F650-EE38-84515E3911F0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>DBF59EAD-8AC6-FCD7-E632-367BF8E5F34F</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID TIPO" id="5B4B9CF8-116B-FA81-AE6A-CC327B4B2362">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>38A9411D-C283-D361-A129-C6A26D26A759</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6128A51C-1C26-6962-2179-E3B08C46AB70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F113A82-0FBC-8252-71D1-7B5947EF54DC" name="TB RECEITA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:56:28 UTC</createdTime>
+<generatorID>DD095126-F58D-0046-BEB8-DFFE43B524A1</generatorID>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<engineerTo>
+<item key="D3AC9E79-03E2-8500-BFF9-1A520D5BF41B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A193F09F-FA2C-D9CA-E243-4D8B5C1F8E72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

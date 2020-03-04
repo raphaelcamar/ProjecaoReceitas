@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="RM82455" directorySegmentName="seg_0" id="26640A6C-5667-6C4A-7A46-123813314E58">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<ownerDesignName>Laranja</ownerDesignName>
+<importedID>E74524B6-1E60-F01A-8FAD-62933E5E6435</importedID>
+</SchemaObject>

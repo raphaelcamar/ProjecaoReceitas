@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B10513D8-7D50-9BB7-14BA-E926D9C3C7CE" schemaObject="26640A6C-5667-6C4A-7A46-123813314E58" name="TB_RECEITA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>745AD1DD-E894-491F-D88B-F42032D0797C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RECEITA" id="D822A86E-F653-E708-9C17-B2D5CD51EC4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<comment>Atributo chave primária da tabela de receitas, serve para identificar os dados cadastrados.</comment>
+<commentInRDBMS>Atributo chave primária da tabela de receitas, serve para identificar os dados cadastrados.</commentInRDBMS>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>23F0079B-488C-F92A-88B3-BE85CC829802</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPO" id="F5061828-7FB6-B9F0-B87B-E8EA4AF3FC89">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<comment>Atributo referencial vindo da tabela TB_Tipo, sendo utilizada como uma chave estrangeira para vincular o tipo da receita. Utiliza-se como um identificador, não repetindo o Id.</comment>
+<commentInRDBMS>Atributo referencial vindo da tabela TB_Tipo, sendo utilizada como uma chave estrangeira para vincular o tipo da receita. Utiliza-se como um identificador, não repetindo o Id.</commentInRDBMS>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>6E8966B5-AEAA-85DE-4510-4C5A0A8AE8A2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9383B2E-7B57-783A-41DC-A0C62156E104" referredColumn="1C377626-0058-132D-6E1A-253E26F81DBE"/>
+</associations>
+</Column>
+<Column name="DT_ANO" id="6F6D1577-6605-145E-9EF4-7DEA5E4D5805">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<comment>Atributo no formato de data, o qual identifica em qual ano foi levantado a receita de cada Tipo, tendo em vista que o filtro da projeção de receita será apenas anual. </comment>
+<commentInRDBMS>Atributo no formato de data, o qual identifica em qual ano foi levantado a receita de cada Tipo, tendo em vista que o filtro da projeção de receita será apenas anual. </commentInRDBMS>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>8B328864-4EFC-94B7-5555-55364088AE3E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL_RECEITA" id="DBF59EAD-8AC6-FCD7-E632-367BF8E5F34F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<comment>Atributo que recebe o valor de cada receita, sendo utilizada posteriormente para realizar o calculo de projeção da receita.</comment>
+<commentInRDBMS>Atributo que recebe o valor de cada receita, sendo utilizada posteriormente para realizar o calculo de projeção da receita.</commentInRDBMS>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>14729267-0606-DC24-8F97-DA76A4D92A4D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD095126-F58D-0046-BEB8-DFFE43B524A1" schemaObject="26640A6C-5667-6C4A-7A46-123813314E58" name="TB_RECEITA_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<importedID>B43531E5-5913-8CBF-6CA0-B71FE002EE43</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D822A86E-F653-E708-9C17-B2D5CD51EC4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="407A9249-FF3E-0B21-7417-C180EA9E2BCF" name="SYS_C0077090">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 13:21:43 UTC</createdTime>
+<ownerDesignName>Projeção_Receitas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5061828-7FB6-B9F0-B87B-E8EA4AF3FC89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

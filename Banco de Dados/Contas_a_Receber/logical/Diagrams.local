@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="DF1F1833-4909-E45D-3840-52B955F49263" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="37E2312C-2828-AC3C-B115-33471E6AB287" name="From_RM_Fiap - SubView_1" visible="false"/>
+   <object objectType="sub_view" objectID="0F27F5A5-0E80-F8CA-DCBD-53F7DC94C9B5" name="From_RM_Fiap - SubView_2" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
