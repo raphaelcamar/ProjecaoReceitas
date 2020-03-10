@@ -1,12 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeção_Receitas" id="BE799302-CF4A-5136-1C5A-E7087F42B5D4" version="3.5">
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Contasss" id="75165370-5B73-EB6A-6321-00E6DE0F8ABE" version="3.5">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2020-03-04 13:19:46 UTC</createdTime>
+<createdTime>2020-03-10 12:28:14 UTC</createdTime>
 <ownerDesignName>Laranja</ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>BE799302-CF4A-5136-1C5A-E7087F42B5D4</designId>
+<designId>75165370-5B73-EB6A-6321-00E6DE0F8ABE</designId>
 <usedDesignStorageDescriptors>
-<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E256CB41-FB9D-2EA4-7581-36A046662E3A">
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7D8F6781-4E3A-27D2-BFF0-F394E48F955C">
 <designStoragePath>C:\</designStoragePath>
 </designDescr>
 </usedDesignStorageDescriptors>
